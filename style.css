@@ -1,0 +1,227 @@
+html{
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+.header{
+  width: 100%;
+  height: 8rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1rem;
+  font-family: 'Monoton', cursive;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.7rem rgba(0,0,0,0.1);
+}
+
+.container{
+  width: 100%;
+  padding: 4rem;
+}
+
+.form-container{
+  max-width:  60rem;
+  margin: auto;
+  border: 0.1rem solid #c8cdd2;
+  box-shadow: 0rem 0rem 0.6rem rgba(0,0,0,0.1);
+}
+
+.top-btns{
+  display: flex;
+}
+
+.btn{
+  flex: 1;
+  outline: none;
+  padding: 2rem 1.5rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #657482;
+  letter-spacing: 0.1rem;
+  background-color: #fff;
+}
+
+.signin{
+  border-left: 0.1rem solid #c8cdd2;
+}
+
+.unactive{
+  background-color: #f9f9fa;
+  border-bottom: 0.1rem solid #c8cdd2;
+}
+
+.inner-container{
+  padding: 5rem;
+  text-align: center;
+}
+
+.inner-container h1{
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
+
+.inner-container .top-text{
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 2.8rem;
+}
+
+.manual-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+}
+
+.manual-btns .google-btn, .manual-btns .facebook-btn{
+  width: 100%;
+  text-decoration: none;
+  color: #657482;
+  padding: 1rem;
+  border-radius: 4rem;
+  letter-spacing: normal;
+  box-shadow: 0rem 0rem 0.8rem rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+}
+
+.manual-btns .facebook-btn{
+  margin-left: 2rem;
+}
+
+.manual-btns .facebook-btn i{
+  color: #3B5998;
+}
+
+.manual-btns .google-btn i{
+  color: #dd4b39;
+}
+
+.manual-btns a:hover{
+  background-color: #f9f9fa;
+}
+
+.manual-btns i{
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+
+.line{
+  font-size: 2rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line .or{
+  margin: 0 0.5rem;
+}
+
+.horizontal-line{
+  margin: 1rem;
+  height: 0;
+  width: 100%;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  position: relative;
+}
+
+.signup-input-display{
+  display: none;
+}
+
+.row input{
+  width: 100%;
+  padding: 1.5rem;
+  outline: none;
+  border: 0.1rem solid #c8cdd2;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.row input:focus{
+  opacity: 1;
+}
+
+.row i{
+     position: absolute;
+     right: 1rem;
+     top: 1.7rem;
+     cursor: pointer;
+}
+
+
+.bottom-text{
+  margin: 3rem 0;
+  color: #657482;
+}
+.bottom-text a, .bottom-links{
+  text-decoration: none;
+  font-weight: bold;
+  color: #017a9b;
+}
+
+.bottom-signin{
+  width: 12rem;
+  height: 4.5rem;
+  text-transform: uppercase;
+  background-color: #006986;
+  color: white;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+   box-shadow: 0 0 0.8rem 0 rgba(17,22,26,.16), 0 0.4rem 0.8rem 0 rgba(17,22,26,.08), 0 0.8rem 1.6rem 0 rgba(17,22,26,.08); 
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.bottom-signin:hover{
+   box-shadow: 0 0 1.4rem 0 rgba(17,22,26,.21), 0 0.4rem 1.4rem 0 rgba(17,22,26,.15), 0 0.8rem 1.2rem 0 rgba(17,22,26,.21);
+}
+
+.other-content{
+  margin-top: 3rem;
+}
+
+.other-content-display{
+  display: none;
+}
+
+.other-content a{
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 555px) {
+   .manual-btns{
+     flex-direction: column;
+   }
+   .manual-btns .facebook-btn{
+    margin: 1.5rem 0 0 0;
+  }
+}
+
+

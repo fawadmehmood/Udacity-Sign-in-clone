@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Chango&family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <div class="header">
+      <h2>Udacity</h2>
+   </div>
+
+   <div class="container">
+      <div class="form-container">
+         <div class="top-btns">
+            <button type="button" class="signup btn unactive" onclick="signupClicked(this)">Sign up</button>
+            <button type="button" class="signin btn" onclick="signinClicked(this)">Sign in</button>
+         </div>
+
+         <div class="inner-container">
+            <h1>Sign in to your account</h1>
+            <p class="top-text">Build skills for today, tomorrow, and beyond.</p>
+            <p class="top-text">Education to future-proof your career.</p>
+
+            <div class="manual-btns">
+               <a href="#" class="google-btn signin-text"><i class="fa fa-google"></i><span>Sign in</span> with
+                  Google</a>
+               <a href="#" class="facebook-btn signin-text"><i class="fa fa-facebook"></i><span>Sign in</span> with
+                  Facebook</a>
+            </div>
+
+            <div class="line">
+               <hr class="horizontal-line">
+               <span class="or">or</span>
+               <hr class="horizontal-line">
+            </div>
+
+            <form class="form">
+               <div class="inputs">
+                  <div class="row signup-input signup-input-display">
+                     <input type="text" placeholder="First Name">
+                  </div>
+
+                  <div class="row signup-input signup-input-display">
+                     <input type="text" placeholder="Last Name">
+                  </div>
+
+                  <div class="row">
+                     <input type="email" placeholder="Email Address">
+                  </div>
+
+                  <div class="row">
+                     <input type="passwrod" placeholder="Password" required>
+                     <i class="far fa-eye-slash"></i>
+                  </div>
+
+                  <p class="bottom-text">By clicking Sign In, you agree to our
+                     <a href="#">Terms of Use</a> and our
+                     <a href="#">Privacy Policy.</a>
+                  </p>
+
+                  <div class="signin-div">
+                     <button type="button" class="bottom-signin">Sign in</button>
+                  </div>
+               </div>
+
+
+               <div class="other-content">
+                  <a href="#" class="bottom-links">Forgot your passwrod?</a>
+                  <div class="line">
+                     <hr class="horizontal-line">
+                     <span class="or">or</span>
+                     <hr class="horizontal-line">
+                  </div>
+                  <a href="#" class="bottom-links">Sign in with your organization</a>
+
+               </div>
+            </form>
+
+         </div>
+
+      </div>
+   </div>
+
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
